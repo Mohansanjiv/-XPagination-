@@ -1,0 +1,87 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  margin-top: 16px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.table thead {
+  background: #009879;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pageNumber {
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.pageNumber:hover {
+  background-color: #e2e2e2;
+}
+
+.activePage {
+  font-weight: bold;
+  background-color: #d1d1d1;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+/* Table Headers & Cells */
+th,
+td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+/* Replace flex items for pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* Button styles */
+.pagination button {
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f7f7f7;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.pagination button:hover {
+  background: #e4e4e4;
+}
+
+/* Page numbers */
+.active {
+  font-weight: bold;
+  background: #dcdcdc;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
